@@ -14,6 +14,15 @@
 		7B97EA862C5A100100947186 /* HackingSwiftLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EA852C5A100100947186 /* HackingSwiftLearnTests.swift */; };
 		7B97EA902C5A100100947186 /* HackingSwiftLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EA8F2C5A100100947186 /* HackingSwiftLearnUITests.swift */; };
 		7B97EA922C5A100100947186 /* HackingSwiftLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EA912C5A100100947186 /* HackingSwiftLearnUITestsLaunchTests.swift */; };
+		7B97EB132C5A110200947186 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B97EA9E2C5A110100947186 /* menu.json */; };
+		7B97EB842C5A110200947186 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB102C5A110200947186 /* Menu.swift */; };
+		7B97EB852C5A110200947186 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB112C5A110200947186 /* Helper.swift */; };
+		7B97EB862C5A110200947186 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB122C5A110200947186 /* Order.swift */; };
+		7B97EB8C2C5A19D300947186 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB8B2C5A19D300947186 /* ItemRow.swift */; };
+		7B97EB8E2C5A227400947186 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB8D2C5A227400947186 /* ItemDetail.swift */; };
+		7B97EB902C5A393700947186 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB8F2C5A393700947186 /* OrderView.swift */; };
+		7B97EB922C5A4BA900947186 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB912C5A4BA900947186 /* MainView.swift */; };
+		7B97EB942C5A4E7400947186 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB932C5A4E7400947186 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		7B97EA8B2C5A100100947186 /* HackingSwiftLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackingSwiftLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B97EA8F2C5A100100947186 /* HackingSwiftLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackingSwiftLearnUITests.swift; sourceTree = "<group>"; };
 		7B97EA912C5A100100947186 /* HackingSwiftLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackingSwiftLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B97EA9E2C5A110100947186 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		7B97EB102C5A110200947186 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		7B97EB112C5A110200947186 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		7B97EB122C5A110200947186 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7B97EB8B2C5A19D300947186 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		7B97EB8D2C5A227400947186 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		7B97EB8F2C5A393700947186 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		7B97EB912C5A4BA900947186 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7B97EB932C5A4E7400947186 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,7 @@
 		7B97EA682C5A0FFF00947186 = {
 			isa = PBXGroup;
 			children = (
+				7B97EB932C5A4E7400947186 /* CheckoutView.swift */,
 				7B97EA732C5A0FFF00947186 /* HackingSwiftLearn */,
 				7B97EA842C5A100100947186 /* HackingSwiftLearnTests */,
 				7B97EA8E2C5A100100947186 /* HackingSwiftLearnUITests */,
@@ -94,8 +113,16 @@
 		7B97EA732C5A0FFF00947186 /* HackingSwiftLearn */ = {
 			isa = PBXGroup;
 			children = (
+				7B97EB112C5A110200947186 /* Helper.swift */,
+				7B97EA9E2C5A110100947186 /* menu.json */,
+				7B97EB102C5A110200947186 /* Menu.swift */,
+				7B97EB122C5A110200947186 /* Order.swift */,
+				7B97EB8F2C5A393700947186 /* OrderView.swift */,
+				7B97EB912C5A4BA900947186 /* MainView.swift */,
 				7B97EA742C5A0FFF00947186 /* HackingSwiftLearnApp.swift */,
 				7B97EA762C5A0FFF00947186 /* ContentView.swift */,
+				7B97EB8D2C5A227400947186 /* ItemDetail.swift */,
+				7B97EB8B2C5A19D300947186 /* ItemRow.swift */,
 				7B97EA782C5A100100947186 /* Assets.xcassets */,
 				7B97EA7A2C5A100100947186 /* Preview Content */,
 			);
@@ -231,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B97EB132C5A110200947186 /* menu.json in Resources */,
 				7B97EA7C2C5A100100947186 /* Preview Assets.xcassets in Resources */,
 				7B97EA792C5A100100947186 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B97EB842C5A110200947186 /* Menu.swift in Sources */,
+				7B97EB922C5A4BA900947186 /* MainView.swift in Sources */,
+				7B97EB942C5A4E7400947186 /* CheckoutView.swift in Sources */,
+				7B97EB902C5A393700947186 /* OrderView.swift in Sources */,
 				7B97EA772C5A0FFF00947186 /* ContentView.swift in Sources */,
+				7B97EB862C5A110200947186 /* Order.swift in Sources */,
+				7B97EB8C2C5A19D300947186 /* ItemRow.swift in Sources */,
+				7B97EB8E2C5A227400947186 /* ItemDetail.swift in Sources */,
 				7B97EA752C5A0FFF00947186 /* HackingSwiftLearnApp.swift in Sources */,
+				7B97EB852C5A110200947186 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

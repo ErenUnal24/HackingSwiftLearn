@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct HackingSwiftLearnApp: App {
+    
+    @StateObject var order = Order()
+
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(order)
         }
     }
 }
