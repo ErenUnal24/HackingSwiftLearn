@@ -15,12 +15,16 @@ struct CheckoutView: View {
     @State private var loyaltyNumber = ""
     
     @State private var showingPaymentAlert = false
+    @State private var tipAmount = 15
+
+    @State private var pickupTime = "Now"
 
 
     let paymentTypes = ["Cash", "Credit Card", "Ticket"]
     
+    let pickupTimes = ["Now", "Tonight", "Tomorrow Morning"]
+    
     let tipAmounts = [10, 15, 20, 25, 0]
-    @State private var tipAmount = 15
     
     var totalPrice: String {
         let total = Double(order.total)
@@ -41,6 +45,14 @@ struct CheckoutView: View {
                 Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
                 if addLoyaltyDetails {
                     TextField("Enter your iDine ID", text: $loyaltyNumber)
+                }
+            }
+            
+            Section {
+                Picker("Choose a pickup time:", selection: $pickupTime) {
+                    ForEach(pickupTimes, id: \.self) {
+                        Text($0)
+                    }
                 }
             }
             

@@ -10,6 +10,11 @@ import SwiftUI
 struct ItemDetail: View {
     @EnvironmentObject var order: Order
     
+    @EnvironmentObject var favorite: Favorite //*****
+    
+    @State private var addFavoriteButton: Bool = false
+
+    
     let item: MenuItem
     
     var body: some View {
@@ -29,20 +34,30 @@ struct ItemDetail: View {
                 .padding()
             Spacer()
             
-            Button("Order This") {
-                order.add(item: item)
+            HStack {
+                Button("Order This") {
+                    order.add(item: item)
+                }
+                .buttonStyle(.borderedProminent)
+                
             }
-            .buttonStyle(.borderedProminent)
-            
+            .navigationTitle(item.name)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                Button("Add Favorite", systemImage: addFavoriteButton ? "heart" : "heart.fill"){
+                    //button codes here
+                    
+                    favorite.add(item: item)
+                }
+            }
         }
-        .navigationTitle(item.name)
-        .navigationBarTitleDisplayMode(.inline)
-
     }
 }
 
 #Preview {
     NavigationStack {
-        ItemDetail(item: MenuItem.example).environmentObject(Order())
+        ItemDetail(item: MenuItem.example)
+            .environmentObject(Order())
+            .environmentObject(Favorite())
     }
 }

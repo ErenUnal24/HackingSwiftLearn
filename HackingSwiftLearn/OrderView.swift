@@ -29,6 +29,7 @@ struct OrderView: View {
                         }
                     }
                     .onDelete(perform: deleteItems)
+                    
                 }
                 
                 Section {

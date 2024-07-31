@@ -23,6 +23,8 @@
 		7B97EB902C5A393700947186 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB8F2C5A393700947186 /* OrderView.swift */; };
 		7B97EB922C5A4BA900947186 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB912C5A4BA900947186 /* MainView.swift */; };
 		7B97EB942C5A4E7400947186 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB932C5A4E7400947186 /* CheckoutView.swift */; };
+		7B97EB962C5A58C700947186 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB952C5A58C700947186 /* FavoriteView.swift */; };
+		7B97EB9A2C5A647300947186 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97EB992C5A647300947186 /* Favorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		7B97EB8F2C5A393700947186 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		7B97EB912C5A4BA900947186 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7B97EB932C5A4E7400947186 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		7B97EB952C5A58C700947186 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		7B97EB992C5A647300947186 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				7B97EB122C5A110200947186 /* Order.swift */,
 				7B97EB8F2C5A393700947186 /* OrderView.swift */,
 				7B97EB912C5A4BA900947186 /* MainView.swift */,
+				7B97EB952C5A58C700947186 /* FavoriteView.swift */,
+				7B97EB992C5A647300947186 /* Favorite.swift */,
 				7B97EA742C5A0FFF00947186 /* HackingSwiftLearnApp.swift */,
 				7B97EA762C5A0FFF00947186 /* ContentView.swift */,
 				7B97EB8D2C5A227400947186 /* ItemDetail.swift */,
@@ -290,9 +296,11 @@
 				7B97EB942C5A4E7400947186 /* CheckoutView.swift in Sources */,
 				7B97EB902C5A393700947186 /* OrderView.swift in Sources */,
 				7B97EA772C5A0FFF00947186 /* ContentView.swift in Sources */,
+				7B97EB962C5A58C700947186 /* FavoriteView.swift in Sources */,
 				7B97EB862C5A110200947186 /* Order.swift in Sources */,
 				7B97EB8C2C5A19D300947186 /* ItemRow.swift in Sources */,
 				7B97EB8E2C5A227400947186 /* ItemDetail.swift in Sources */,
+				7B97EB9A2C5A647300947186 /* Favorite.swift in Sources */,
 				7B97EA752C5A0FFF00947186 /* HackingSwiftLearnApp.swift in Sources */,
 				7B97EB852C5A110200947186 /* Helper.swift in Sources */,
 			);
